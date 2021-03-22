@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+
+.line-header {
+  display: flex;
+  align-items: center;
+  @apply text-accent;
+
+  &:before,
+  &:after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    @apply bg-accent;
+  }
+
+  &:before {
+    margin-right: 1rem;
+  }
+
+  &:after {
+    margin-left: 1rem;
+  }
+}
+
+.section-side-bar {
+  width: 20px;
+
+  &:after {
+    content: "";
+    width: 4px;
+    border-radius: 2px;
+    height: 100%;
+    @apply bg-accent-light;
+    position: absolute;
+    left: 10px;
+  }
+}
+
+@tailwind utilities;
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  font-size: 14px;
+}
+
+.test {
+  color: red;
+}
