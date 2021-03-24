@@ -17,7 +17,7 @@
     </section>
     <certificates class="mt-3 mx-3"></certificates>
     <links class="mt-3 mx-3"></links>
-    <to-work class="mt-3 mx-3"></to-work>
+    <to-work class="mt-4 mx-3"></to-work>
     <career class="mt-3 mx-3"></career>
     <skill-stack class="mt-3 mx-3"></skill-stack>
   </div>
