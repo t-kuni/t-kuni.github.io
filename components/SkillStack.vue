@@ -4,13 +4,41 @@
       <div class="side-bar" ref="sideBar"></div>
       <div class="side-bar-circle"></div>
     </div>
-    <div class="text-area flex-auto" ref="textArea">
+    <div class="text-area flex-auto ml-2" ref="textArea">
       <h2 class="title-text">使い慣れている技術スタック</h2>
-      <table>
+      <table class="mt-2">
         <tbody>
         <tr>
           <th>言語</th>
-          <td>PHP, JavaScript(ブラウザ、Node), SQL</td>
+          <td class="pl-1">PHP, JavaScript(ブラウザ、Node), SQL</td>
+        </tr>
+        <tr>
+          <th>ライブラリ<br/>フレームワーク</th>
+          <td class="pl-1">Laravel, Vue, Nuxt</td>
+        </tr>
+        <tr>
+          <th>ミドルウェア</th>
+          <td class="pl-1">Nginx, Apache, Redis, MySQL</td>
+        </tr>
+        <tr>
+          <th>インフラ</th>
+          <td class="pl-1">AWS, Terraform, GCP</td>
+        </tr>
+        <tr>
+          <th>ツール</th>
+          <td class="pl-1">Git, PhpStorm, Docker</td>
+        </tr>
+        <tr>
+          <th>SaaS</th>
+          <td class="pl-1">esa, figma, spreadsheet, Slack, Google Analytics</td>
+        </tr>
+        <tr>
+          <th>SEO</th>
+          <td class="pl-1">Google Analytics, Search Console, Lighthouse</td>
+        </tr>
+        <tr>
+          <th>分析基盤</th>
+          <td class="pl-1">BigQuery(GCP) データポータル</td>
         </tr>
         </tbody>
       </table>
@@ -49,21 +77,10 @@ export default {
     }
   }
 
-  .text-area {
-    h3 {
-      position: relative;
-
-      &:after {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 3px;
-        left: -17px;
-        width: 14px;
-        height: 14px;
-        border-radius: 999px;
-        @apply bg-accent;
-      }
+  table {
+    td,th {
+      border: 1px solid black;
+      border-collapse: collapse;
     }
   }
 </style>
