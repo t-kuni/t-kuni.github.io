@@ -14,7 +14,7 @@
   &:before,
   &:after {
     content: "";
-    height: 1px;
+    height: 2px;
     flex-grow: 1;
     @apply bg-accent;
   }
