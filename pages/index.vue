@@ -1,8 +1,11 @@
 <template>
   <div class="container">
     <section>
-      <div class="flex justify-center">
-        <img src="~/assets/img/avatar.jpg" class="rounded-full">
+      <div class="avatar-area">
+        <div class="triangle"></div>
+        <div class="flex justify-center">
+          <img src="~/assets/img/avatar.jpg" class="rounded-full" style="width: 200px; height: 200px;">
+        </div>
       </div>
       <h1 class="font-bold text-lg text-accent text-center">T・Kuni</h1>
       <p class="text-center">Webエンジニア　1990年生まれ</p>
@@ -25,51 +28,29 @@
         <li>aaa</li>
       </ul>
     </section>
-    <section class="flex overflow-hidden">
-      <div class="section-side-bar flex-none">
-
-      </div>
-      <div class="flex-auto">
-        <h2 class="text-accent">仕事との向き合い方</h2>
-        <p>趣味である個人制作を通して習得した知識を仕事で活用する事が多いです。
-          個人制作では試したい事や使用する技術を決めて、ガッと開発に取り組んで、ブログなりQiitaなりにアウトプットする事で知識が身につくようにしています。
-          プライベートの時間を使った自己研鑽もある程度評価して頂ける風土があると嬉しいです。</p>
-        <p>必要に応じてユニットテストを書きます。
-          全てのモジュール、パターンに対して書くとコストが跳ね上がってしまうので、ビジネス的に重要なモジュールや、複雑になる事が予想されるモジュールに対して書くようにしています。</p>
-      </div>
-    </section>
-    <section>
-      <h2>経歴</h2>
-      <h3>自社サービス企業</h3>
-      <p>2017 〜 現在</p>
-      <p>経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文</p>
-      <h3>SES（技術者派遣）企業</h3>
-      <p>2012 〜 2017</p>
-      <p>経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文</p>
-      <h3>情報系専門</h3>
-      <p>2010 〜 2012</p>
-      <p>経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文</p>
-      <h3>情報系専門</h3>
-      <p>2010 〜 2012</p>
-      <p>経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文経歴本文</p>
-    </section>
-    <section>
-      <h2>使い慣れている技術スタック</h2>
-      <table>
-        <tbody>
-        <tr>
-          <th>言語</th>
-          <td>PHP, JavaScript(ブラウザ、Node), SQL</td>
-        </tr>
-        </tbody>
-      </table>
-    </section>
+    <to-work></to-work>
+    <career></career>
+    <skill-stack></skill-stack>
   </div>
 </template>
 
 <script>
-export default {}
+import ToWork from "../components/ToWork";
+import Career from "../components/Career";
+import SkillStack from "../components/SkillStack";
+
+export default {
+  components: {ToWork, Career, SkillStack},
+}
 </script>
 
-<style>
+<style type="scss" scoped>
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #C0C0C0;
+  transform: translate(-10px, 5px) rotate(-45deg);
+}
 </style>

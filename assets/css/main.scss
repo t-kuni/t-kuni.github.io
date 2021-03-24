@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 
+.title-text {
+  @apply text-accent;
+  font-weight: bold;
+}
+
 .line-header {
   display: flex;
   align-items: center;
@@ -20,20 +25,6 @@
 
   &:after {
     margin-left: 1rem;
-  }
-}
-
-.section-side-bar {
-  width: 20px;
-
-  &:after {
-    content: "";
-    width: 4px;
-    border-radius: 2px;
-    height: 100%;
-    @apply bg-accent-light;
-    position: absolute;
-    left: 10px;
   }
 }
 
