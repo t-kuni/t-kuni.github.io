@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto mb-5">
     <div class="md:flex flex-none">
-      <div>
+      <div class="w-300">
         <section>
           <div class="avatar-area">
             <div class="triangle"></div>
@@ -11,10 +11,10 @@
           </div>
           <h1 class="font-bold text-lg text-accent text-center mt-3">T・Kuni</h1>
           <p class="text-center mt-3">Webエンジニア　1990年生まれ</p>
-          <p class="mt-3 mx-3">アプリケーションレイヤが主戦場のWebエンジニアです。<br/>
-            エンドユーザ目線でUXの改善、機能の提案＆実装を心掛けています。<br/>
-            プログラミングやDB設計、SEO、インフラ構築、UX/UIデザインなど幅広く対応しています。<br/>
-            目的や課題から逆算して必要なものを習得、実装するスタイルなので広く浅くフルスタック気味です。<br/>
+          <p class="mt-3 mx-3">アプリケーションレイヤが主戦場のWebエンジニアです。</p>
+          <p class="mt-3 mx-3">エンドユーザ目線でUXの改善、機能の提案＆実装を心掛けています。</p>
+          <p class="mt-3 mx-3">プログラミングやDB設計、SEO、インフラ構築、UX/UIデザインなど幅広く対応しています。</p>
+          <p class="mt-3 mx-3">目的や課題から逆算して必要なものを習得、実装するスタイルなのでややフルスタック寄りです。<br/>
             特定の技術に凄く詳しいというよりは、必要なスキルを広く浅く習得しています。</p>
         </section>
         <certificates class="mt-3 mx-3"></certificates>
