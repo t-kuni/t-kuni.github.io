@@ -9,7 +9,7 @@
               <img src="~/assets/img/avatar.jpg" class="rounded-full" style="width: 200px; height: 200px;">
             </div>
           </div>
-          <h1 class="font-bold text-lg text-accent text-center mt-3">T・Kuni</h1>
+          <h1 class="font-bold text-lg text-accent-dark text-center mt-3">T・Kuni</h1>
           <p class="text-center mt-3">Webエンジニア　1990年生まれ</p>
           <p class="mt-3 mx-3">アプリケーションレイヤが主戦場のWebエンジニアです。</p>
           <p class="mt-3 mx-3">エンドユーザ目線でUXの改善、機能の提案＆実装を心掛けています。</p>

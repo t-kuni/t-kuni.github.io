@@ -7,6 +7,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       accent: {
+        dark: '#127373',
         DEFAULT: '#53B6B6',
         light: '#84DADA',
       }
