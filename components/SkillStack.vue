@@ -9,35 +9,35 @@
       <table class="mt-2">
         <tbody>
         <tr>
-          <th>言語</th>
+          <th class="py-1">言語</th>
           <td class="pl-1">PHP, JavaScript(ブラウザ、Node), SQL</td>
         </tr>
         <tr>
-          <th>ライブラリ<br/>フレームワーク</th>
+          <th class="py-1">ライブラリ<br/>フレームワーク</th>
           <td class="pl-1">Laravel, Vue, Nuxt</td>
         </tr>
         <tr>
-          <th>ミドルウェア</th>
+          <th class="py-1">ミドルウェア</th>
           <td class="pl-1">Nginx, Apache, Redis, MySQL</td>
         </tr>
         <tr>
-          <th>インフラ</th>
+          <th class="py-1">インフラ</th>
           <td class="pl-1">AWS, Terraform, GCP</td>
         </tr>
         <tr>
-          <th>ツール</th>
+          <th class="py-1">ツール</th>
           <td class="pl-1">Git, PhpStorm, Docker</td>
         </tr>
         <tr>
-          <th>SaaS</th>
+          <th class="py-1">SaaS</th>
           <td class="pl-1">esa, figma, spreadsheet, Slack, Google Analytics</td>
         </tr>
         <tr>
-          <th>SEO</th>
+          <th class="py-1">SEO</th>
           <td class="pl-1">Google Analytics, Search Console, Lighthouse</td>
         </tr>
         <tr>
-          <th>分析基盤</th>
+          <th class="py-1">分析基盤</th>
           <td class="pl-1">BigQuery(GCP) データポータル</td>
         </tr>
         </tbody>
@@ -53,29 +53,28 @@ export default {
 </script>
 
 <style type="scss" scoped>
-  .side-bar-area {
-    position: relative;
-    width: 20px;
+.side-bar-area {
+  position: relative;
+  width: 24px;
 
-    .side-bar-circle {
-      position: absolute;
-      left: 1px;
-      width: 18px;
-      height: 18px;
-      border-radius: 10px;
-      margin: 0 auto;
-      @apply bg-accent;
-    }
-
-    .side-bar {
-      position: absolute;
-      left: 8px;
-      width: 4px;
-      height: 100%;
-      border-radius: 2px;
-      @apply bg-accent-light;
-    }
+  .side-bar-circle {
+    position: absolute;
+    left: 1px;
+    width: 24px;
+    height: 24px;
+    border-radius: 999px;
+    @apply bg-accent;
   }
+
+  .side-bar {
+    position: absolute;
+    left: 11px;
+    width: 4px;
+    height: 100%;
+    border-radius: 2px;
+    @apply bg-accent-light;
+  }
+}
 
   table {
     td,th {

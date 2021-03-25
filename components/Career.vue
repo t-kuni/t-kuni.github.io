@@ -19,7 +19,8 @@
         ・BigQueryとデータポータルを用いた分析基盤を構築し、データの活用を推進<br/>
         ・プロダクトを成長させていくための開発環境周りの整備<br/>
       </p>
-      <div class="flex mt-2">
+      <p class="note-area mt-3">上記の業務の傍ら、副業として他社のサービスの開発の手伝いや、教材の執筆を行っていました。</p>
+      <div class="flex mt-6">
         <h3 class="font-bold flex-auto">SES（技術者派遣）企業</h3>
         <p>2012年 〜 2017年</p>
       </div>
@@ -30,7 +31,7 @@
         ・業務システム開発（SAStruts）<br/>
         ・スマートフォンアプリ開発（Objective-C, Java）<br/>
         ・UIテスト自動化（VBA）</p>
-      <div class="flex mt-2">
+      <div class="flex mt-6">
         <h3 class="font-bold flex-auto">情報系専門学校</h3>
         <p>2010年 〜 2012年</p>
       </div>
