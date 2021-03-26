@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'profile-2',
+    title: 'T・Kuniについて',
     htmlAttrs: {
       lang: 'en'
     },
