@@ -18,27 +18,47 @@
         </tr>
         <tr>
           <th class="py-1">ミドルウェア</th>
-          <td class="pl-1">Nginx, Apache, Redis, MySQL</td>
+          <td class="pl-1">PHP-FPM, Nginx, Apache, Redis, MySQL, Postfix</td>
+        </tr>
+        <tr>
+          <th class="py-1">コンテナ</th>
+          <td class="pl-1">Docker</td>
         </tr>
         <tr>
           <th class="py-1">インフラ</th>
-          <td class="pl-1">AWS, Terraform, GCP</td>
-        </tr>
-        <tr>
-          <th class="py-1">ツール</th>
-          <td class="pl-1">Git, PhpStorm, Docker</td>
-        </tr>
-        <tr>
-          <th class="py-1">SaaS</th>
-          <td class="pl-1">esa, figma, spreadsheet, Slack, Google Analytics</td>
-        </tr>
-        <tr>
-          <th class="py-1">SEO</th>
-          <td class="pl-1">Google Analytics, Search Console, Lighthouse</td>
+          <td class="pl-1">AWS, GCP, Terraform</td>
         </tr>
         <tr>
           <th class="py-1">分析基盤</th>
-          <td class="pl-1">BigQuery(GCP) データポータル</td>
+          <td class="pl-1">BigQuery, データポータル</td>
+        </tr>
+        <tr>
+          <th class="py-1">テスト</th>
+          <td class="pl-1">PHPUnit, jMeter</td>
+        </tr>
+        <tr>
+          <th class="py-1">IDE</th>
+          <td class="pl-1">PhpStorm</td>
+        </tr>
+        <tr>
+          <th class="py-1">バージョン管理</th>
+          <td class="pl-1">Git, SVN</td>
+        </tr>
+        <tr>
+          <th class="py-1">情報共有</th>
+          <td class="pl-1">Slack, esa, figma, spreadsheet</td>
+        </tr>
+        <tr>
+          <th class="py-1">タスク管理</th>
+          <td class="pl-1">Backlog, Trello</td>
+        </tr>
+        <tr>
+          <th class="py-1">アクセス解析</th>
+          <td class="pl-1">Google Analytics</td>
+        </tr>
+        <tr>
+          <th class="py-1">SEO</th>
+          <td class="pl-1">Search Console, Lighthouse</td>
         </tr>
         </tbody>
       </table>
